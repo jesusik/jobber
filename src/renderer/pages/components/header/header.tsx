@@ -1,9 +1,16 @@
 import '@mantine/core/styles.css';
 import { MantineProvider, Image, Group } from '@mantine/core';
-import { IconBell, IconUser } from '@tabler/icons-react';
+import { IconUser } from '@tabler/icons-react';
 import './header.css';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
 export default function Header() {
+  const navigate = useNavigate(); // Initialize navigate
+
+  const goToProfile = () => {
+    navigate('/profile');
+  };
+
   return (
     <MantineProvider>
       <div
@@ -15,12 +22,18 @@ export default function Header() {
         <Group justify="space-between" m="20px">
           <Image src="/images/home.png" w="400px" />
           <Group gap="lg">
-            <div className="icon-container">
+            {/* <div className="icon-container">
               <IconBell size={35} />
-            </div>
+            </div> */}
 
             <div className="icon-container">
-              <IconUser size={35} />
+              <button
+                type="button"
+                style={{ background: 'none', border: 'none' }}
+                onClick={goToProfile}
+              >
+                <IconUser size={35} />
+              </button>
             </div>
           </Group>
         </Group>

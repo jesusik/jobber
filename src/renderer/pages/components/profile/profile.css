@@ -1,0 +1,17 @@
+/* ProfileSettings.css */
+.menu-item {
+  font-size: 18px;
+  background-color: none;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 15px;
+}
+
+
+
+.menu-item.active {
+  background-color: #0B52DC;
+  color: rgba(182, 205, 244, 0.3)
+}
+
+

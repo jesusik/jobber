@@ -8,7 +8,7 @@ import {
   Text,
 } from '@mantine/core';
 import { IconSearch } from '@tabler/icons-react';
-import Header from './header';
+import Header from './components/header/header';
 import Category from './components/categories';
 import FeaturedJobs from './components/featuredJobs';
 import TopCompanies from './components/topCompanies';
