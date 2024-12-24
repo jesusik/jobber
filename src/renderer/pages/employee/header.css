@@ -1,0 +1,27 @@
+.icon-container {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  /* Default icon color */
+  .icon-container svg {
+    color: #007bff; /* Blue color */
+    transition: color 0.3s;
+  }
+  
+  /* Hover effect */
+  .icon-container:hover {
+    background-color: #007bff; /* Blue background */
+  }
+  
+  .icon-container:hover svg {
+    color: white; /* Change icon color to white on hover */
+  }
+  
