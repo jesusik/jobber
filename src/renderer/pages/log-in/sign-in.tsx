@@ -18,7 +18,7 @@ export default function Sign() {
       <div style={{margin: "20px 30px"}}>
         <Group justify='flex-end'>
           <Text>Already have an account?</Text>
-          <Button onClick={handleLoginClick}>Log in</Button> 
+          <Button onClick={handleLoginClick}>Log in</Button>
         </Group>
         <Group style={{margin: "0px 100px 0 100px"}} gap="100px">
           <Stack w="450px" gap="10px">
