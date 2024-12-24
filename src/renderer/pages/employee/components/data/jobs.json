@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "position": "Software Engineer",
+    "type": "full-time",
+    "salary": "$80,000 - $100,000",
+    "company": "Tech Corp",
+    "description": "Develop and maintain web applications."
+  },
+  {
+    "id": 2,
+    "position": "UI/UX Designer",
+    "type": "part-time",
+    "salary": "$40,000 - $60,000",
+    "company": "Design Studio",
+    "description": "Create engaging user interfaces."
+  },
+  {
+    "id": 3,
+    "position": "Data Scientist",
+    "type": "internship",
+    "salary": "$20/hour",
+    "company": "Analytics Ltd.",
+    "description": "Analyze data and create visual reports."
+  },
+  {
+    "id": 4,
+    "position": "Product Manager",
+    "type": "full-time",
+    "salary": "$100,000 - $120,000",
+    "company": "Innovate Inc.",
+    "description": "Lead product development teams."
+  },
+  {
+    "id": 5,
+    "position": "DevOps Engineer",
+    "type": "full-time",
+    "salary": "$90,000 - $110,000",
+    "company": "CloudWorks",
+    "description": "Manage and automate cloud infrastructure."
+  },
+  {
+    "id": 6,
+    "position": "Marketing Specialist",
+    "type": "part-time",
+    "salary": "$50,000 - $70,000",
+    "company": "MarketNow",
+    "description": "Plan and execute marketing strategies."
+  },
+  {
+    "id": 7,
+    "position": "Frontend Developer",
+    "type": "full-time",
+    "salary": "$75,000 - $95,000",
+    "company": "WebWonders",
+    "description": "Create responsive and interactive UI."
+  },
+  {
+    "id": 8,
+    "position": "HR Specialist",
+    "type": "internship",
+    "salary": "$18/hour",
+    "company": "PeoplePros",
+    "description": "Assist in recruitment and employee engagement."
+  },
+  {
+    "id": 9,
+    "position": "QA Engineer",
+    "type": "full-time",
+    "salary": "$85,000 - $105,000",
+    "company": "Testify",
+    "description": "Ensure software quality through testing."
+  },
+  {
+    "id": 10,
+    "position": "Technical Writer",
+    "type": "part-time",
+    "salary": "$30/hour",
+    "company": "DocuTech",
+    "description": "Write and maintain technical documentation."
+  },
+  {
+    "id": 11,
+    "position": "Cybersecurity Analyst",
+    "type": "full-time",
+    "salary": "$95,000 - $115,000",
+    "company": "SecureSystems",
+    "description": "Protect systems against cyber threats."
+  },
+  {
+    "id": 12,
+    "position": "Graphic Designer",
+    "type": "part-time",
+    "salary": "$25/hour",
+    "company": "Creative Studios",
+    "description": "Design visuals and marketing materials."
+  }
+]

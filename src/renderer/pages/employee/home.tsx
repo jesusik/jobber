@@ -9,6 +9,9 @@ import {
 } from '@mantine/core';
 import { IconSearch } from '@tabler/icons-react';
 import Header from './header';
+import Category from './components/categories';
+import FeaturedJobs from './components/featuredJobs';
+import TopCompanies from './components/topCompanies';
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState<string>('');
@@ -28,9 +31,18 @@ export default function Home() {
               />
             </InputWrapper>
           </Center>
-          <Text size="xl" fw={600}>
+          <Text size="xl" pb="15px" fw={600}>
             Popular categories
           </Text>
+          <Category />
+          <Text size="xl" pb="15px" pt="30px" fw={600}>
+            Featured Jobs
+          </Text>
+          <FeaturedJobs />
+          <Text size="xl" pb="15px" pt="30px" fw={600}>
+            Top companies
+          </Text>
+          <TopCompanies />
         </div>
       </div>
     </MantineProvider>
