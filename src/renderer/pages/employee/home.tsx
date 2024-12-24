@@ -36,7 +36,7 @@ export default function Home() {
           </Text>
           <Category />
           <Text size="xl" pb="15px" pt="30px" fw={600}>
-            Featured Jobs
+            Featured Job
           </Text>
           <FeaturedJobs />
           <Text size="xl" pb="15px" pt="30px" fw={600}>

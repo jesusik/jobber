@@ -14,7 +14,6 @@ const companies = [
 ];
 
 export default function TopCompanies() {
-  // Split companies into columns (3 columns with 2 companies in each)
   const columns: {
     id: number;
     name: string;

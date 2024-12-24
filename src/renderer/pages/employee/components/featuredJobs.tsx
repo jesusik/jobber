@@ -39,7 +39,7 @@ export default function FeaturedJobs() {
                   {job.type}
                 </Badge>
               </Group>
-              <Text size="sm" color="dimmed" mb="xs">
+              <Text size="sm" mb="xs">
                 {job.company}
               </Text>
               <Text size="sm" mb="xs">

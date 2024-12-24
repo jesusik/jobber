@@ -13,12 +13,11 @@ const categories = [
 ];
 
 export default function Category() {
-  const firstRow = categories.slice(0, 4); // First 4 categories
+  const firstRow = categories.slice(0, 4);
   const secondRow = categories.slice(4);
 
   return (
     <Grid gutter="md">
-      {/* First Row */}
       {firstRow.map((category) => (
         <Grid.Col key={category.id} span={3}>
           <Paper shadow="sm" p="md" radius="md" withBorder>
