@@ -8,6 +8,7 @@ import Login from './logIn/log-in';
 import Home from './home';
 import Profile from './profile/profile';
 import Saved from './profile/saved';
+import JobInfo from './components/jobInfo';
 
 export default function App() {
   // const router = createBrowserRouter([
@@ -27,6 +28,7 @@ export default function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/saved" element={<Saved />} />
+          <Route path="/job/:id" element={<JobInfo />} />
         </Routes>
       </HashRouter>
 

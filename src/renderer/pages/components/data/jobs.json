@@ -1,98 +1,98 @@
 [
   {
     "id": 1,
-    "position": "Software Engineer",
-    "type": "full-time",
-    "salary": "$80,000 - $100,000",
-    "company": "Tech Corp",
-    "description": "Develop and maintain web applications."
+    "position": "Frontend Developer",
+    "type": "Full-Time",
+    "salary": "$70,000 - $90,000",
+    "company": "TechCorp",
+    "description": "Develop and maintain user-facing web applications with React."
   },
   {
     "id": 2,
-    "position": "UI/UX Designer",
-    "type": "part-time",
-    "salary": "$40,000 - $60,000",
-    "company": "Design Studio",
-    "description": "Create engaging user interfaces."
+    "position": "Backend Developer",
+    "type": "Full-Time",
+    "salary": "$80,000 - $100,000",
+    "company": "Innovatech",
+    "description": "Build and maintain scalable backend services with Node.js."
   },
   {
     "id": 3,
     "position": "Data Scientist",
-    "type": "internship",
-    "salary": "$20/hour",
-    "company": "Analytics Ltd.",
-    "description": "Analyze data and create visual reports."
+    "type": "Contract",
+    "salary": "$60/hour",
+    "company": "DataInsights",
+    "description": "Analyze data and create predictive models to improve business decisions."
   },
   {
     "id": 4,
-    "position": "Product Manager",
-    "type": "full-time",
-    "salary": "$100,000 - $120,000",
-    "company": "Innovate Inc.",
-    "description": "Lead product development teams."
+    "position": "UI/UX Designer",
+    "type": "Part-Time",
+    "salary": "$40,000 - $50,000",
+    "company": "Designify",
+    "description": "Design intuitive user interfaces and improve user experience for web and mobile apps."
   },
   {
     "id": 5,
-    "position": "DevOps Engineer",
-    "type": "full-time",
+    "position": "Project Manager",
+    "type": "Full-Time",
     "salary": "$90,000 - $110,000",
-    "company": "CloudWorks",
-    "description": "Manage and automate cloud infrastructure."
+    "company": "Agile Solutions",
+    "description": "Oversee project timelines, budgets, and team performance."
   },
   {
     "id": 6,
-    "position": "Marketing Specialist",
-    "type": "part-time",
-    "salary": "$50,000 - $70,000",
-    "company": "MarketNow",
-    "description": "Plan and execute marketing strategies."
+    "position": "DevOps Engineer",
+    "type": "Full-Time",
+    "salary": "$85,000 - $105,000",
+    "company": "CloudOps",
+    "description": "Implement CI/CD pipelines and maintain cloud infrastructure."
   },
   {
     "id": 7,
-    "position": "Frontend Developer",
-    "type": "full-time",
-    "salary": "$75,000 - $95,000",
-    "company": "WebWonders",
-    "description": "Create responsive and interactive UI."
+    "position": "Marketing Specialist",
+    "type": "Contract",
+    "salary": "$50/hour",
+    "company": "MarketHub",
+    "description": "Develop and execute digital marketing campaigns."
   },
   {
     "id": 8,
-    "position": "HR Specialist",
-    "type": "internship",
-    "salary": "$18/hour",
-    "company": "PeoplePros",
-    "description": "Assist in recruitment and employee engagement."
+    "position": "Software Engineer",
+    "type": "Full-Time",
+    "salary": "$95,000 - $115,000",
+    "company": "CodeCrafters",
+    "description": "Design, develop, and optimize software solutions."
   },
   {
     "id": 9,
     "position": "QA Engineer",
-    "type": "full-time",
-    "salary": "$85,000 - $105,000",
-    "company": "Testify",
-    "description": "Ensure software quality through testing."
+    "type": "Part-Time",
+    "salary": "$45,000 - $55,000",
+    "company": "TestPro",
+    "description": "Ensure software quality through manual and automated testing."
   },
   {
     "id": 10,
-    "position": "Technical Writer",
-    "type": "part-time",
-    "salary": "$30/hour",
-    "company": "DocuTech",
-    "description": "Write and maintain technical documentation."
+    "position": "Product Manager",
+    "type": "Full-Time",
+    "salary": "$100,000 - $130,000",
+    "company": "Innovative Products",
+    "description": "Define product vision and strategy, and work with teams to deliver great products."
   },
   {
     "id": 11,
-    "position": "Cybersecurity Analyst",
-    "type": "full-time",
-    "salary": "$95,000 - $115,000",
-    "company": "SecureSystems",
-    "description": "Protect systems against cyber threats."
+    "position": "Mobile Developer",
+    "type": "Contract",
+    "salary": "$75/hour",
+    "company": "Appify",
+    "description": "Create and maintain mobile applications for iOS and Android platforms."
   },
   {
     "id": 12,
-    "position": "Graphic Designer",
-    "type": "part-time",
-    "salary": "$25/hour",
-    "company": "Creative Studios",
-    "description": "Design visuals and marketing materials."
+    "position": "Business Analyst",
+    "type": "Full-Time",
+    "salary": "$70,000 - $90,000",
+    "company": "BizSolutions",
+    "description": "Analyze business processes and recommend improvements."
   }
 ]
