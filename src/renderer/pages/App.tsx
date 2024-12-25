@@ -9,6 +9,7 @@ import Home from './home';
 import Profile from './profile/profile';
 import Saved from './profile/saved';
 import JobInfo from './components/jobInfo';
+import ListOfJobs from './components/listOfJobs';
 
 export default function App() {
   // const router = createBrowserRouter([
@@ -29,6 +30,7 @@ export default function App() {
           <Route path="/profile" element={<Profile />} />
           <Route path="/saved" element={<Saved />} />
           <Route path="/job/:id" element={<JobInfo />} />
+          <Route path="/jobs/:companyId" element={<ListOfJobs />} />
         </Routes>
       </HashRouter>
 

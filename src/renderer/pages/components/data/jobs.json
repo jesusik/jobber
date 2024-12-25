@@ -18,7 +18,7 @@
   {
     "id": 3,
     "position": "Data Scientist",
-    "type": "Contract",
+    "type": "Internship",
     "salary": "$60/hour",
     "company": "DataInsights",
     "description": "Analyze data and create predictive models to improve business decisions."
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "position": "Marketing Specialist",
-    "type": "Contract",
+    "type": "Internship",
     "salary": "$50/hour",
     "company": "MarketHub",
     "description": "Develop and execute digital marketing campaigns."
@@ -82,7 +82,7 @@
   {
     "id": 11,
     "position": "Mobile Developer",
-    "type": "Contract",
+    "type": "Internship",
     "salary": "$75/hour",
     "company": "Appify",
     "description": "Create and maintain mobile applications for iOS and Android platforms."

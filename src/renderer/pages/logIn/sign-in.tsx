@@ -24,12 +24,12 @@ export default function Sign() {
 
   return (
     <MantineProvider>
-      <div style={{ margin: '20px 30px' }}>
+      <div style={{ margin: '50px 30px' }}>
         <Group justify="flex-end">
           <Text>Already have an account?</Text>
           <Button onClick={handleLoginClick}>Log in</Button>
         </Group>
-        <Group style={{ margin: '0px 100px 0 100px' }} gap="100px">
+        <Group style={{ margin: '40px 100px 0 100px' }} gap="100px">
           <Stack w="450px" gap="10px">
             <Select
               label="Who are you?"

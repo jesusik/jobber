@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "name": "Company A",
+    "location": "New York, USA",
+    "featured": true,
+    "jobs": [
+      {
+        "id": 1,
+        "title": "Software Engineer",
+        "salary": "$120,000",
+        "location": "New York, USA",
+        "type": "Full-time",
+        "description": "Develop amazing software"
+      },
+      {
+        "id": 2,
+        "title": "Product Manager",
+        "salary": "$110,000",
+        "location": "New York, USA",
+        "type": "Full-time",
+        "description": "Lead product development"
+      },
+      {
+        "id": 3,
+        "title": "UX Designer",
+        "salary": "$90,000",
+        "location": "New York, USA",
+        "type": "Part-time",
+        "description": "Design user-friendly interfaces"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Company B",
+    "location": "London, UK",
+    "featured": false,
+    "jobs": [
+      {
+        "id": 1,
+        "title": "Backend Developer",
+        "salary": "£80,000",
+        "location": "London, UK",
+        "type": "Full-time",
+        "description": "Work on server-side logic"
+      },
+      {
+        "id": 2,
+        "title": "UX Designer",
+        "salary": "£70,000",
+        "location": "London, UK",
+        "type": "Part-time",
+        "description": "Design user interfaces"
+      },
+      {
+        "id": 3,
+        "title": "Data Scientist",
+        "salary": "£95,000",
+        "location": "London, UK",
+        "type": "Full-time",
+        "description": "Analyze large data sets"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Company C",
+    "location": "Berlin, Germany",
+    "featured": true,
+    "jobs": [
+      {
+        "id": 1,
+        "title": "Frontend Developer",
+        "salary": "€60,000",
+        "location": "Berlin, Germany",
+        "type": "Full-time",
+        "description": "Build beautiful user interfaces"
+      },
+      {
+        "id": 2,
+        "title": "Backend Developer",
+        "salary": "€70,000",
+        "location": "Berlin, Germany",
+        "type": "Full-time",
+        "description": "Build and maintain server-side applications"
+      },
+      {
+        "id": 3,
+        "title": "Product Manager",
+        "salary": "€80,000",
+        "location": "Berlin, Germany",
+        "type": "Full-time",
+        "description": "Manage the product lifecycle"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Company D",
+    "location": "Tokyo, Japan",
+    "featured": true,
+    "jobs": [
+      {
+        "id": 1,
+        "title": "Product Manager",
+        "salary": "¥9,000,000",
+        "location": "Tokyo, Japan",
+        "type": "Full-time",
+        "description": "Manage product development processes"
+      },
+      {
+        "id": 2,
+        "title": "Software Engineer",
+        "salary": "¥10,000,000",
+        "location": "Tokyo, Japan",
+        "type": "Full-time",
+        "description": "Develop software solutions"
+      },
+      {
+        "id": 3,
+        "title": "Marketing Specialist",
+        "salary": "¥7,500,000",
+        "location": "Tokyo, Japan",
+        "type": "Full-time",
+        "description": "Oversee product marketing"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Company E",
+    "location": "San Francisco, USA",
+    "featured": false,
+    "jobs": [
+      {
+        "id": 1,
+        "title": "Software Engineer",
+        "salary": "$130,000",
+        "location": "San Francisco, USA",
+        "type": "Full-time",
+        "description": "Design and implement new features"
+      },
+      {
+        "id": 2,
+        "title": "HR Manager",
+        "salary": "$100,000",
+        "location": "San Francisco, USA",
+        "type": "Full-time",
+        "description": "Oversee recruitment and employee relations"
+      },
+      {
+        "id": 3,
+        "title": "Data Engineer",
+        "salary": "$110,000",
+        "location": "San Francisco, USA",
+        "type": "Full-time",
+        "description": "Manage large-scale data processing"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Company F",
+    "location": "Paris, France",
+    "featured": true,
+    "jobs": [
+      {
+        "id": 1,
+        "title": "Web Developer",
+        "salary": "€65,000",
+        "location": "Paris, France",
+        "type": "Full-time",
+        "description": "Develop web applications"
+      },
+      {
+        "id": 2,
+        "title": "UI/UX Designer",
+        "salary": "€75,000",
+        "location": "Paris, France",
+        "type": "Full-time",
+        "description": "Create user interfaces and experiences"
+      },
+      {
+        "id": 3,
+        "title": "DevOps Engineer",
+        "salary": "€80,000",
+        "location": "Paris, France",
+        "type": "Full-time",
+        "description": "Manage cloud infrastructure and deployments"
+      }
+    ]
+  }
+]

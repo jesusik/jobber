@@ -28,7 +28,7 @@ export default function Login() {
           <Text>Do not have account yet?</Text>
           <Button onClick={handleLoginClick}>Sign in</Button>
         </Group>
-        <Stack w="500px" align="center" ml="400px" mt="50px">
+        <Stack w="500px" align="center" ml="400px" mt="180px">
           <Image src="/images/Logo.png" w="400px" />
           <TextInput placeholder="email" w="500px" />
           <TextInput placeholder="password" w="500px" />
