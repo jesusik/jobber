@@ -1,8 +1,15 @@
 import '@mantine/core/styles.css';
-import { MantineProvider, Center } from '@mantine/core';
+import {
+  MantineProvider,
+  Paper,
+  Group,
+  Text,
+  Image,
+  Stack,
+  Button,
+} from '@mantine/core';
 import Header from '../components/header/header';
 import ProfileSettings from '../components/profile/profile-settings';
-// import ProfileInfo from '../components/profile/profile-info';
 
 export default function Profile() {
   return (
@@ -10,13 +17,99 @@ export default function Profile() {
       <div>
         <Header />
         <div style={{ margin: '40px' }}>
-          <Center>
-            <div className="container">
-              <div className="row">
-                <ProfileSettings />
-              </div>
-            </div>
-          </Center>
+          <Group align="flex-start">
+            <Paper>
+              <ProfileSettings />
+            </Paper>
+            <Paper w={900} h={730} withBorder p="30px">
+              <Group
+                p="20px"
+                style={{
+                  backgroundColor: 'rgba(182, 205, 244, 0.3)',
+                  borderRadius: '10px',
+                }}
+              >
+                <Image src="./images/profile.png" w={70} />
+                <Text size="30px" fw={600}>
+                  Name Surname
+                </Text>
+              </Group>
+              <Text pl="100px" size="25px" fw={300}>
+                Employee
+              </Text>
+
+              <Stack pt="20px" gap="30px">
+                <Group justify="space-between">
+                  <Paper
+                    withBorder
+                    w="400px"
+                    p="10px"
+                    style={{ borderRadius: '10px' }}
+                  >
+                    <Text fw={600} size="lg">
+                      Email
+                    </Text>
+                    <Text>dfjasdk@gmail.com</Text>
+                  </Paper>
+                  <Paper
+                    withBorder
+                    w="400px"
+                    p="10px"
+                    style={{ borderRadius: '10px' }}
+                  >
+                    <Text fw={600} size="lg">
+                      Phone number
+                    </Text>
+                    <Text>+99890768548485</Text>
+                  </Paper>
+                </Group>
+                <Paper withBorder p="10px" style={{ borderRadius: '10px' }}>
+                  <Text fw={600} size="lg">
+                    Location
+                  </Text>
+                  <Text>Tashkent</Text>
+                </Paper>
+                <Group justify="space-between">
+                  <Paper
+                    withBorder
+                    w="400px"
+                    p="10px"
+                    style={{ borderRadius: '10px' }}
+                  >
+                    <Text fw={600} size="lg">
+                      Education
+                    </Text>
+                    <Text>Inha university</Text>
+                  </Paper>
+                  <Paper
+                    withBorder
+                    w="400px"
+                    p="10px"
+                    style={{ borderRadius: '10px' }}
+                  >
+                    <Text fw={600} size="lg">
+                      Position
+                    </Text>
+                    <Text>Designer</Text>
+                  </Paper>
+                </Group>
+                <Paper
+                  withBorder
+                  p="10px"
+                  h="150px"
+                  style={{ borderRadius: '10px' }}
+                >
+                  <Text fw={600} size="lg">
+                    About me
+                  </Text>
+                </Paper>
+              </Stack>
+
+              <Button mt="20px" h="40px" radius="8px" size="15px">
+                Make changes
+              </Button>
+            </Paper>
+          </Group>
         </div>
       </div>
     </MantineProvider>

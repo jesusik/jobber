@@ -11,6 +11,10 @@ export default function Header() {
     navigate('/profile');
   };
 
+  const goToHome = () => {
+    navigate('/home'); // Navigate to the home route
+  };
+
   return (
     <MantineProvider>
       <div
@@ -20,12 +24,20 @@ export default function Header() {
         }}
       >
         <Group justify="space-between" m="20px">
-          <Image src="/images/home.png" w="400px" />
-          <Group gap="lg">
-            {/* <div className="icon-container">
-              <IconBell size={35} />
-            </div> */}
+          {/* Make the image clickable without changing its size */}
+          <button
+            type="button"
+            style={{
+              background: 'none',
+              border: 'none',
+              padding: 0, // Remove any default padding from the button
+            }}
+            onClick={goToHome}
+          >
+            <Image src="/images/home.png" alt="Home" />
+          </button>
 
+          <Group gap="lg">
             <div className="icon-container">
               <button
                 type="button"
