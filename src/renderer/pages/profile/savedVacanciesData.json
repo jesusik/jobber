@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "vacancyName": "Frontend Developer",
+    "salary": "$4000/month",
+    "type": "Full-time",
+    "companyName": "Tech Corp"
+  },
+  {
+    "id": 2,
+    "vacancyName": "UI/UX Designer",
+    "salary": "$3500/month",
+    "type": "Part-time",
+    "companyName": "Design Studio"
+  },
+  {
+    "id": 3,
+    "vacancyName": "Software Engineer",
+    "salary": "$5000/month",
+    "type": "Internship",
+    "companyName": "Innovative Solutions"
+  }
+]

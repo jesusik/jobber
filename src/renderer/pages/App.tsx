@@ -2,11 +2,12 @@ import '@mantine/core/styles.css';
 import { MantineProvider } from '@mantine/core';
 // import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { HashRouter, Routes, Route } from 'react-router-dom';
-import Welcome from './welcome';
-import Sign from './sign-in';
-import Login from './log-in';
+import Welcome from './logIn/welcome';
+import Sign from './logIn/sign-in';
+import Login from './logIn/log-in';
 import Home from './home';
 import Profile from './profile/profile';
+import Saved from './profile/saved';
 
 export default function App() {
   // const router = createBrowserRouter([
@@ -25,6 +26,7 @@ export default function App() {
           <Route path="/log-in" element={<Login />} />
           <Route path="/home" element={<Home />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/saved" element={<Saved />} />
         </Routes>
       </HashRouter>
 

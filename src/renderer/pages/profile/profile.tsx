@@ -9,14 +9,20 @@ import {
   Button,
 } from '@mantine/core';
 import Header from '../components/header/header';
-import ProfileSettings from '../components/profile/profile-settings';
+import ProfileSettings from './profile-settings';
 
 export default function Profile() {
   return (
     <MantineProvider>
       <div>
         <Header />
-        <div style={{ margin: '40px' }}>
+        <div
+          style={{
+            backgroundColor: 'rgba(229, 237, 250, 0.3)', // Light blue with 30% opacity
+            padding: '40px',
+            minHeight: 'calc(100vh - 70px)', // Adjust height to cover remaining viewport
+          }}
+        >
           <Group align="flex-start">
             <Paper>
               <ProfileSettings />
@@ -25,7 +31,7 @@ export default function Profile() {
               <Group
                 p="20px"
                 style={{
-                  backgroundColor: 'rgba(182, 205, 244, 0.3)',
+                  backgroundColor: 'rgba(182, 205, 244, 0.3)', // Slightly darker shade for the profile header
                   borderRadius: '10px',
                 }}
               >
@@ -105,7 +111,13 @@ export default function Profile() {
                 </Paper>
               </Stack>
 
-              <Button mt="20px" h="40px" radius="8px" size="15px">
+              <Button
+                mt="20px"
+                h="40px"
+                radius="8px"
+                size="15px"
+                style={{ backgroundColor: '#0B52DC', color: '#fff' }}
+              >
                 Make changes
               </Button>
             </Paper>

@@ -6,12 +6,20 @@ import {
   IconUser,
   IconSettings,
 } from '@tabler/icons-react';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
 export default function ProfileSettings() {
   const [activeItem, setActiveItem] = useState<string>('profile'); // Track the active menu item
+  const navigate = useNavigate(); // Initialize navigate
 
   const handleItemClick = (item: string) => {
     setActiveItem(item);
+    if (item === 'saved') {
+      navigate('/saved'); // Use absolute path for "saved"
+    } else if (item === 'profile') {
+      navigate('/profile'); // Use absolute path for "profile"
+    }
+    // Add navigation for other items as needed
   };
 
   return (
@@ -26,7 +34,7 @@ export default function ProfileSettings() {
                 fontSize: rem(18),
                 color: theme.colors.dark[9],
                 borderRadius: rem(15),
-                transition: 'background-color 0.3s, color 0.3s',
+                transition: 'background-color 0.1s ease, color 0.1s ease', // Faster transition
                 '&[data-hovered]': {
                   backgroundColor: theme.colors.blue[6],
                   color: theme.colors.blue[0],
