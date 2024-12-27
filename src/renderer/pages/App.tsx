@@ -1,6 +1,5 @@
 import '@mantine/core/styles.css';
 import { MantineProvider } from '@mantine/core';
-// import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Welcome from './logIn/welcome';
 import Sign from './logIn/sign-in';
@@ -12,13 +11,6 @@ import JobInfo from './components/jobInfo';
 import ListOfJobs from './components/listOfJobs';
 
 export default function App() {
-  // const router = createBrowserRouter([
-  //   { path: '/', element: <Welcome /> },
-  //   { path: '/sign-in', element: <Sign /> },
-  //   { path: '/log-in', element: <Login /> },
-  //   { path: '/home', element: <Home /> },
-  // ]);
-
   return (
     <MantineProvider>
       <HashRouter>
@@ -33,8 +25,6 @@ export default function App() {
           <Route path="/jobs/:companyId" element={<ListOfJobs />} />
         </Routes>
       </HashRouter>
-
-      {/* <RouterProvider router={router} /> */}
     </MantineProvider>
   );
 }

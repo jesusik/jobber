@@ -13,7 +13,6 @@ export default function JobInfo() {
 
   const [isSaved, setIsSaved] = useState(false);
 
-  // Toggle save state when clicked
   const handleSaveClick = () => {
     setIsSaved(!isSaved);
   };

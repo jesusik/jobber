@@ -1,7 +1,6 @@
 import { Group, Input, Paper, Text, Badge } from '@mantine/core';
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-// Explicitly type the imported JSON data
 import jobData from './data/CompanyJobData.json';
 import Header from './header/header';
 
@@ -22,7 +21,6 @@ interface Company {
   jobs: Job[];
 }
 
-// Explicitly cast jobData to the correct type
 const jobDataTyped: Company[] = jobData as Company[];
 
 export default function ListOfJobs() {
